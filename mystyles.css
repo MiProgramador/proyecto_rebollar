@@ -1,0 +1,85 @@
+.playfair {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 1px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    font-family: "Playfair";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.azul {
+    color: #037BC0 ;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.hero {
+    font-family: "Playfair";
+    font-size:x-large;
+    background-color: rgb(134, 143, 150);
+    color : white;
+    padding: 60px;
+}
+
+.fondo_producto {
+    background-color: #037BC0;
+    color: white;
+    border: 1px solid rgb(80, 79, 79);
+    border-radius: 5px;
+    padding: 10px;
+    margin : 5px 0px 5px 0px;
+}
+
+.btn_verde {
+    background-color: #8cbc00;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid rgb(26, 168, 75);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_verde:hover{
+    background-color: greenyellow;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    color: black;
+    padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+a {
+    color: grey;
+     text-decoration: none;
+}
+
+p {
+    padding: 5px 5px 0px 5px;
+}
+
+.transition-zoom {
+  transition: transform 0.3s ease;
+}
+
+.transition-zoom:hover {
+  transform: scale(1.2);
+}
